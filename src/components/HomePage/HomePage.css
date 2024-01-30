@@ -1,0 +1,41 @@
+/* HomePage.css */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; 
+  
+}
+
+.column {
+    flex: 1; 
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 8px; 
+    color: #7669c2;
+    font-weight: bold;
+    
+}
+
+
+.text-homepage{
+  padding: 5% 3%;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+
+/*Media Query for mobile devices*/
+@media screen and (max-width: 389px) {
+  .text-homepage {
+    padding: 10% 3%;
+    font-size: 17px;
+    line-height: 4vh;
+  }
+}
+/* Media for tablets,Ipads*/
+@media  (min-width:390px) and (max-width: 767px) {
+  .text-homepage {
+    padding: 10% 3%;
+    font-size: 3vh;
+    line-height: 4vh;
+  }
+}

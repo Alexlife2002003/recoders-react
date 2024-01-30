@@ -1,0 +1,57 @@
+/* OurTeam.css */
+.circle {
+  width: 200px;
+  height: 200px;
+  margin: 16px auto 25px;
+  border-radius: 50%;
+ /*border: 4px solid #000;*/ 
+  background-color: #232c4d;
+  box-shadow: 0 0 12px 4px #7a6ac5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.my-text {
+  font-weight: bold;
+  font-size: 28px;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .circle {
+    width: 160px;
+    height: 160px;
+
+  }
+
+  .team-container {
+    padding-top: 5%;
+  }
+}
+
+.no-link-decoration {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .team-container {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+}
+
+
+.team-container{
+  width: 95%;
+  margin: auto;
+  text-align: center;
+}
+
+
